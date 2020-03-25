@@ -7,7 +7,7 @@ r = sr.Recognizer()
 
 with sr.Microphone() as source:
     playsound('call.mp3',True)
-    #print("Say City Name : ",end='')
+    print("Tell the Location : ",end='')
     audio=r.listen(source)
     print(audio)
     try:
