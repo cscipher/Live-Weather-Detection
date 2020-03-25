@@ -17,7 +17,7 @@ with sr.Microphone() as source:
         print("NOT PROPERLY AUDIBLE")
 
 weather_url = "'http://api.openweathermap.org/data/2.5/weather"
-ap_id = "9e820fd2ed2534c9be417de07eb35ea6"
+ap_id = #Enter your app id here
 
 #temp = requests.put(weather_url,data={"q":city,"appid":ap_id})
 temp = requests.get('http://api.openweathermap.org/data/2.5/weather?q={0}&appid={ap_id}'.format(city, ap_id)).json()
