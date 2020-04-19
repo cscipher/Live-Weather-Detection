@@ -35,5 +35,5 @@ pip install //here comes the file name of downloaded file//
 
 Just simply install all mentioned libraries and open the code in your editor. After that, just run your program.
 
-### Developers
-HARSH SONI
+## Developers
+[Harsh Soni](https://github.com/xCiPH3R)
