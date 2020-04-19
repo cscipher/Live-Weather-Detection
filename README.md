@@ -24,7 +24,8 @@ pip install pyaudio
 
 (on linux, use pip3)
 ```
-If installing pyaudio gives some error, you may download it from given link : https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+If installing pyaudio gives some error, you may download it from given link : [PyAudio](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio)
+
 after downloading, open CMD/terminal and go to download folder location and run :
 
 ```
