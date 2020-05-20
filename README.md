@@ -1,6 +1,6 @@
 # LIVE WEATHER DETECTION
 
-Get information about weather conditons just with your voice.
+Get information about weather conditions just with your voice.
 
 ## Getting Started
 
