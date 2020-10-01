@@ -14,7 +14,7 @@ with sr.Microphone() as source:
         city=r.recognize_google(audio)
         print(city+'\n')
     except:
-        print("NOT PROPERLY AUDIBLE")
+        print("NOT PROPERLY AUDIBLE,SPEAK LOUDLY")
 
 weather_url = "'http://api.openweathermap.org/data/2.5/weather"
 ap_id = #Enter your app id here
