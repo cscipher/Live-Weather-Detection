@@ -2,7 +2,7 @@ from gtts import gTTS
 import os, requests
 from playsound import playsound
 import speech_recognition as sr 
-
+printf("***Welcome To Weather Detection***")
 r = sr.Recognizer()
 
 with sr.Microphone() as source:
@@ -24,10 +24,7 @@ temp = requests.get('http://api.openweathermap.org/data/2.5/weather?q={0}&appid=
 
 feels = temp['weather'][0]['description']
 temprature = temp['main']['temp']
-temprature_new = 'Current Temperature is '+str(round((temprature-273.16), 1))+' degree celsius, '
-feels_new = "and, outside, it is "+feels
-
-weather = temprature_new+feels_new
+weather = 'Current Temperature is '+str(round((temprature-273.16), 1))+' degree celsius, and, outside, it is '+feels
 
 language = 'en-us'
 obj = gTTS(text=weather, lang=language, slow=False)
@@ -35,3 +32,4 @@ obj = gTTS(text=weather, lang=language, slow=False)
 obj.save("welcome.mp3")
 print(weather)
 playsound('Welcome.mp3',True)
+printf("Thank You!!")
